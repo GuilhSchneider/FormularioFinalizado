@@ -1,0 +1,160 @@
+
+body{
+    background: linear-gradient(45deg, #999999, #666666, #333333);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 180px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.subform{
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #666666, #333333, #111111);
+}
+
+.input1,.input3,.input5,.input7,.input10{
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #999999;
+    border: 0px;
+    outline: transparent;
+    color: white;
+}
+
+.input2,.input4,.input6,.input8{
+    height: 25px;
+    border-radius: 5px;
+    background-color: #999999;
+    border: 0px;
+    outline: transparent;
+    color: white;
+}
+
+.input9{
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #999999;
+    border: 0px;
+    outline: transparent;
+    color: white;
+    width: 350px;
+}
+
+.textArea{
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #999999;
+    border: 0px;
+    outline: transparent;
+    color: white;
+    list-style-type: none;
+}
+
+.label1{
+    color: white;
+    position: relative;
+    left: 5px;
+    letter-spacing: 1px;
+}
+
+.label2{
+    color: white;
+    position: relative;
+    left: 155px;
+    letter-spacing: 1px;
+}
+
+.label3{
+    color: white;
+    position: relative;
+    left: 4px;
+    letter-spacing: 1px;
+}
+
+.label4{
+    color: white;
+    position: relative;
+    left: 138px;
+    letter-spacing: 1px;
+}
+
+.label5{
+    color: white;
+    position: relative;
+    left: 5px;
+    letter-spacing: 1px;
+}
+
+.label6{
+    color: white;
+    position: relative;
+    left: 138px;
+    letter-spacing: 1px;
+}
+
+.label7{
+    color: white;
+    position: relative;
+    left: 5px;
+    letter-spacing: 1px;
+}
+
+.label8{
+    color: white;
+    position: relative;
+    left: 138px;
+    letter-spacing: 1px;
+}
+
+.label9{
+    color: white;
+    position: relative;
+    left: 4px;
+    letter-spacing: 1px;
+}
+
+.label10{
+    color: white;
+    position: relative;
+    left: 5px;
+    letter-spacing: 1px;
+    
+}
+
+
+.Btn {
+    height: 60px;
+    width: 356px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(0, 103, 138);
+    color: white;
+    transition: 0.5s ease;
+    border: 0px;
+
+}
+
+.Btn:hover {
+    color: #111111;
+    background-color: rgb(177, 177, 177);
+    
+}
+
+.button-div {
+    height: 100px;
+    width: 40px;
+    position: relative;
+    top: 30px;
+}
